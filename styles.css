@@ -1,12 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-
-    background-image: url(https://source.unsplash.com/JNz9bQD3Oio/1600x900) ;
+    background-image: url(https://source.unsplash.com/JNz9bQD3Oio/1600x900);
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.75;
@@ -20,14 +19,16 @@ header {
     font-weight: 900;
 }
 
-header, form {
+header,
+form {
     min-height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-form input, form button {
+form input,
+form button {
     padding: 0.5rem;
     font-size: 2rem;
     border: none;
@@ -45,6 +46,7 @@ form button:hover {
     background: rgb(71, 71, 71);
     color: white;
 }
+
 .todo-container {
     display: flex;
     justify-content: center;
@@ -71,8 +73,9 @@ form button:hover {
     flex: 1;
 }
 
-.trash-btn, .complete-btn {
-    background:rgb(129, 21, 21);
+.delete-btn,
+.complete-btn {
+    background: rgb(129, 21, 21);
     color: white;
     border: none;
     padding: 1rem;
@@ -88,7 +91,8 @@ form button:hover {
     padding: 0rem 0.5rem;
 }
 
-.fa-trash, .fa-check {
+.fa-trash,
+.fa-check {
     pointer-events: none;
 }
 
